@@ -1,0 +1,14 @@
+.container-six{
+    display: flex;
+    justify-content: center;
+    background-color:  #1f2937;
+}
+
+.six-innercontainer{
+    display: flex;
+    align-self: center;
+}
+
+.sixtext{
+    color: white;
+}

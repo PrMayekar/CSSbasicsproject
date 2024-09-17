@@ -1,0 +1,37 @@
+.root-container{
+    display: flex;
+    flex-direction: column;
+    width:100vw;
+    outline: 2px solid black;
+}
+
+.container-one{
+    height: 100px;
+    display: flex;
+    background-color: #1f2937;
+    border: none;
+    align-items: center;
+}
+
+.header-logo,
+.navigation-bar{
+    flex: 1;
+}
+
+.header-logo{
+    padding-left: 250px;
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.navigation-bar{
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-right: 250px;
+}
+
+

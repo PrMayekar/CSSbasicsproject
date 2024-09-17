@@ -1,0 +1,65 @@
+.container-three{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+    padding-bottom: 150px;
+    padding-top: 50px;
+}
+
+.two-heading{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+
+.two-content{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+.twocontainer{
+    height: 150px;
+    width: 150px;
+    outline: 5px solid darkblue;
+    border-radius: 20px;
+    
+}
+
+.twotext {
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    text-align: center;
+}
+
+.two-title{
+    font-size: 36px;
+    color:#1f2937;
+    font-weight: 900;
+}
+.textcontent{
+    color: #51555a;
+    font-size: 18px;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quoter{
+    color: black;
+    font-weight: 300;
+}
+

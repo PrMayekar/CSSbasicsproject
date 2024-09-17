@@ -1,0 +1,71 @@
+.container-five{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.innercontainer{
+    display: flex;
+    height: 250px;
+    width: 1000px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 20px;
+}
+
+.inner-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-div{
+    width: 300px;
+    height: 125px;
+    align-self: center;
+    margin-top: 30px;
+    vertical-align: bottom;
+}
+
+.bottom-div{
+    width: 300px;
+    height: 125px;
+    align-self: center;
+    margin-bottom: 30px;
+    
+}
+
+.inner-right{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.button-div{
+    align-self: center;
+}
+
+.heading{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.fivetext{
+    color: white;
+
+}
+
+.button{
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-radius: 6px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    border: none;
+    outline: 3px solid white;
+}
